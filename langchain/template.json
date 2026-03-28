@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "domain",
+        "profession"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    my profession is {profession} and i have specialization in {domain}.\n\tso generate 20 lines of essay on every profession including specialization.\n\tthings to focus on \n\t1.dont include introduction of the profession and domain\n\t2.future scope \n\t3.future demand \n\t4.what are the pros and cons \n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
